@@ -1,0 +1,34 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  animations: ^2.0.3
+  random_name_plus: ^1.0.1
+  flutter_shimmer: ^2.1.2
+  async_loader: ^0.1.2
+  image_downloader: ^0.31.0
+  http: ^0.13.4
+  wave: ^0.2.2
+  flutter_svg: ^1.1.1+1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+      - images/
